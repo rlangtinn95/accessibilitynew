@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="project.css">
+      <script src="https://kit.fontawesome.com/52c306871d.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+      <script src="extra.js"></script>
+    <div class="wrapper">
+      <nav tabindex="0" class="main">
+            <ul>
+                  <li><a href="trondheim.html">Trondheim</a></li>
+                  <li><a href="oslo.html">Oslo</a></li>
+                  <li><a href="gjovik.html">Gjøvik</a></li>
+                  <li><a href="stavanger.html">Stavanger</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="video.html">Video</a></li>
+                  <li><a href="fillout.html">Fill out!</a></li>
+
+            </ul>
+      </nav>
+      
+    <!--main section-->
+    <section class="main-content2">
+      <h1 tabindex="0">Fill out your information below to subscribe on our webpage!</h1>
+
+      
+      <form name="myForm" class="items" action="/fillout.html" onsubmit="return validateForm()" method="post">
+            <label tabindex="0" for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Please fill in your first name"><br>
+
+            <label tabindex="0" for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="Please fill in your last name" > <br>
+
+            <label tabindex="0" for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" placeholder="Please fill in your email"><br>
+
+            
+            <label tabindex="0" for="DOB">Date of Birth</label><br>
+      <input type="date" id="DOB" name="DOB"> <br>
+      
+      <label tabindex="0" for="address">Address:</label><br>
+            <input type="text" id="address" name="address" placeholder="Please fill in your address"> <br>
+      <input type="submit" value="Submit">
+
+
+   
+
+          </form>
+
+       
+      
+  
+    </section>
+
+
+
+    <!--Footer-->
+    <footer tabindex="0">
+      <p tabindex="0">Richard Langtinn</p>
+      <p tabindex="0">NTNU &copy; 2022</p>
+    </footer>
+
+    <!--End of wrapper-->
+</div>
+</body>
+</html>
